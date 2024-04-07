@@ -1,0 +1,27 @@
+{
+  "name": "mergetracksheet",
+  "version": "1.0.0",
+  "description": "baseのブランチをセルに入力すると issueやprなどでマージされているかやだれがレビューを行ったかなどの追跡をサポートする",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clasp": "clasp",
+    "login": "clasp login",
+    "pull": "clasp pull",
+    "push": "clasp push",
+    "deploy": "clasp deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Khitoshi/MergeTrackSheet.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Khitoshi/MergeTrackSheet/issues"
+  },
+  "homepage": "https://github.com/Khitoshi/MergeTrackSheet#readme",
+  "dependencies": {
+    "@google/clasp": "^2.4.2"
+  }
+}
